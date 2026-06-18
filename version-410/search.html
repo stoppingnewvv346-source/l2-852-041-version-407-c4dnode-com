@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-热门国产影片-热门影片片库分类-高清影片在线观看</title>
+    <meta name="description" content="搜索热门国产影片、热门影片、高清影片与在线观看内容。">
+    <meta name="keywords" content="热门国产影片,国产影片,热门影片,影片片库,高清影片,在线观看,影视内容">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-wrap" aria-label="主导航">
+            <a class="brand" href="index.html" aria-label="热门国产影片首页">
+                <span class="brand-icon">▶</span>
+                <span class="brand-text">热门国产影片</span>
+            </a>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" data-mobile-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" data-nav-links>
+            <a class="nav-link" href="index.html">首页</a>
+            <a class="nav-link" href="categories.html">分类</a>
+            <a class="nav-link" href="rankings.html">排行榜</a>
+            <a class="nav-link" href="all.html">全部影片</a>
+            <a class="nav-link is-active" href="search.html">搜索</a>
+            </div>
+            <form class="nav-search" action="search.html" method="get" role="search">
+                <input type="search" name="q" placeholder="搜索影片、地区、题材" aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="sub-hero search-hero">
+            <div class="sub-hero-inner">
+                <span>搜索/筛选</span>
+                <h1>搜索影片片库</h1>
+                <p>输入影片标题、地区、类型、题材或标签，快速定位相关内容。</p>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="search-panel">
+                <form class="search-page-form" data-search-form>
+                    <input type="search" name="q" placeholder="例如：悬疑、家庭、德国、2025" data-search-input>
+                    <button type="submit">搜索</button>
+                </form>
+                <div class="search-controls">
+                    <select data-search-category>
+                        <option value="">全部分类</option>
+                        <option value="guochan-jingxuan">国产精选</option><option value="xuanyi-fanzui">悬疑犯罪</option><option value="aiqing-zhiyu">爱情治愈</option><option value="xiju-qingsong">喜剧轻松</option><option value="dongzuo-maoxian">动作冒险</option><option value="kehuan-qixiang">科幻奇想</option><option value="kongbu-jingsong">惊悚恐怖</option><option value="jiating-shenghuo">家庭生活</option><option value="lishi-zhanzheng">历史战争</option><option value="qingchun-chengzhang">青春成长</option><option value="juqing-jiapian">剧情佳作</option><option value="quanqiu-pianku">全球片库</option>
+                    </select>
+                    <select data-search-type>
+                        <option value="">全部类型</option>
+                        <option value="电影">电影</option>
+                        <option value="剧集">剧集</option>
+                        <option value="综艺">综艺</option>
+                    </select>
+                </div>
+            </div>
+            <div class="search-summary" data-search-summary>请输入关键词开始搜索，或直接浏览推荐结果。</div>
+            <div class="movie-grid" data-search-results></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-icon">▶</span>
+                    <span class="brand-text">热门国产影片</span>
+                </a>
+                <p>热门国产影片栏目聚合高关注国产影片，按题材与热度提供清晰分类。</p>
+            </div>
+            <div>
+                <h2>热门分类</h2>
+                <ul>
+                    <li><a href="category/guochan-jingxuan.html">国产精选影视</a></li>
+                    <li><a href="category/xuanyi-fanzui.html">悬疑犯罪影视</a></li>
+                    <li><a href="category/aiqing-zhiyu.html">爱情治愈影视</a></li>
+                    <li><a href="category/xiju-qingsong.html">喜剧轻松影视</a></li>
+                    <li><a href="category/dongzuo-maoxian.html">动作冒险影视</a></li>
+                    <li><a href="category/kehuan-qixiang.html">科幻奇想影视</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>站内入口</h2>
+                <ul>
+                    <li><a href="categories.html">分类总览</a></li>
+                    <li><a href="rankings.html">热门排行榜</a></li>
+                    <li><a href="all.html">全部影片</a></li>
+                    <li><a href="search.html">影片搜索</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/movies-data.js"></script>
+    <script src="assets/js/site.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
